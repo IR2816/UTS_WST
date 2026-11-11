@@ -8,8 +8,8 @@
 ## A. Bukti pemeriksaan masalah
 | Masalah | Alat yang digunakan | Bukti pemeriksaan | Perkiraan penyebab | Perbaikan | Hasil setelah perbaikan |
 |---|---|---|---|---|---|
-| Produk | List produk tidak mucncul | terdapat error 404 di console | endpoint di app.js berbeda dengan yang di server.mjs | ganti endpoit nya dari api/barang ke api/products | product list muncul |
-| Tombol keranjang | | | | | |
+| Produk | Console  | terdapat error 404 di console | endpoint di app.js berbeda dengan yang di server.mjs | ganti endpoit nya dari api/barang ke api/products | product list muncul |
+| Tombol keranjang | Source | tombol tidak terbaca dan saat di breakpoint error | class tidak sama untuk tombol | ubah .add-to-cart menjadi .add-buttom | product dapat dimasukan ke keranjang |
 | Total belanja | | | | | |
 
 ## B. Hasil pengujian
