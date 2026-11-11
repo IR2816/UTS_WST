@@ -8,7 +8,7 @@
 ## A. Bukti pemeriksaan masalah
 | Masalah | Alat yang digunakan | Bukti pemeriksaan | Perkiraan penyebab | Perbaikan | Hasil setelah perbaikan |
 |---|---|---|---|---|---|
-| Produk | List produk tidak mucncul | di console terdapat 2 failed to load resource dan 1 failed to load image |  | | |
+| Produk | List produk tidak mucncul | terdapat error 404 di console | endpoint di app.js berbeda dengan yang di server.mjs | ganti endpoit nya dari api/barang ke api/products | product list muncul |
 | Tombol keranjang | | | | | |
 | Total belanja | | | | | |
 
