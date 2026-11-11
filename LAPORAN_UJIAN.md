@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | Produk | Console  | terdapat error 404 di console | endpoint di app.js berbeda dengan yang di server.mjs | ganti endpoit nya dari api/barang ke api/products | product list muncul |
 | Tombol keranjang | Source | tombol tidak terbaca dan saat di breakpoint error | class tidak sama untuk tombol | ubah .add-to-cart menjadi .add-buttom | product dapat dimasukan ke keranjang |
-| Total belanja | | | | | |
+| Total belanja | Test runner dan browser F12 | Setelah produk yang sama ditambahkan dua kali, jumlah barang bertambah tetapi total tidak ikut bertambah dengan benar | Fungsi calculateTotal hanya menghitung item.price dan belum mengalikan item.quantity | Mengubah perhitungan menjadi harga dikali jumlah barang | Total berubah sesuai jumlah produk dan test berhasil |
 
 ## B. Hasil pengujian
 - Jumlah pengujian sebelum perbaikan:
