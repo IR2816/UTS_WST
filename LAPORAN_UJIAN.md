@@ -13,7 +13,7 @@
 | Total belanja | Test runner dan browser F12 | Setelah produk yang sama ditambahkan dua kali, jumlah barang bertambah tetapi total tidak ikut bertambah dengan benar | Fungsi calculateTotal hanya menghitung item.price dan belum mengalikan item.quantity | Mengubah perhitungan menjadi harga dikali jumlah barang | Total berubah sesuai jumlah produk dan test berhasil |
 
 ## B. Hasil pengujian
-- Jumlah pengujian sebelum perbaikan:
+- Jumlah pengujian sebelum perbaikan: 
 - Jumlah pengujian berhasil setelah perbaikan:
 - Catatan perubahan pada fungsi yang diperiksa:
 
